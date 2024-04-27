@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="Load-in"
         android:layout_marginTop="60dp"
-        android:backgroundTint="#123BCD"
+        android:backgroundTint="#1E958A"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>
