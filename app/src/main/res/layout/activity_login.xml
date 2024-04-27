@@ -16,7 +16,7 @@
         android:text="Login"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#222222"/>
+        android:textColor="#FF673AB7"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
         android:layout_marginTop="15dp"
         android:textSize="14sp"
         android:layout_gravity="right"
-        android:textColor="#1D59E1"/>
+        android:textColor="#FF673AB7"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,20 +63,20 @@
         android:text="Password"
         android:layout_marginTop="15dp"
         android:textSize="14sp"
-        android:textColor="#222222"/>
+        android:textColor="#FF673AB7"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#F6F6F6"
         android:hint="Enter Password"
-        android:textColorHint="#A9A9A9"
+        android:textColorHint="#FF673AB7"
         android:textSize="12sp"
         android:padding="15dp"
         android:drawableLeft="@drawable/lock"
         android:drawableRight="@drawable/eye"
         android:drawablePadding="8dp"
-        android:drawableTint="#A9A9A9"
+        android:drawableTint="#FF673AB7"
         android:layout_marginTop="8dp"
         android:inputType="textPassword"/>
 
