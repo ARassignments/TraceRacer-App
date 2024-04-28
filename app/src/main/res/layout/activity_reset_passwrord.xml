@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter your E-mail Address to confirm \n that it's your's."
+        android:text="Enter email address and a link to reset your password will be sent to you."
         android:layout_marginTop="8dp"
         android:textSize="14sp"
         android:textColor="#555555"/>
