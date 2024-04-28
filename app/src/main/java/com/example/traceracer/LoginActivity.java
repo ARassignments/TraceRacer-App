@@ -1,5 +1,6 @@
 package com.example.traceracer;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,14 +19,14 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
-        TextView forgotpwd = findViewById(R.id.forgotpwd);
-        forgotpwd.setOnClickListener(new View.OnClickListener() {
+        TextView forgotBtn = findViewById(R.id.forgotpwd);
+        forgotBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, Reset_Passwrord_Activity.class);
+                Intent intent = new Intent(LoginActivity.this,Reset_Passwrord_Activity.class);
                 startActivity(intent);
-
             }
-        ')'
+        });
+
     }
 }
