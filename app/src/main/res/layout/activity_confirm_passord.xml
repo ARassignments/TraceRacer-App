@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:layout_marginTop="60dp"
-        android:backgroundTint="#1E958A"
+        android:backgroundTint="#01579B"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>
