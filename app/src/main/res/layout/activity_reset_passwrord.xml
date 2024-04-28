@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email Address"
-        android:layout_marginRight="130dp"
+        android:layout_marginRight="127dp"
         android:layout_marginTop="40dp"
         android:textSize="14sp"
         android:textColor="#222222"/>
