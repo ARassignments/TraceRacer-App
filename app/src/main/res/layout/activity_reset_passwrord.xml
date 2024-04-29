@@ -6,15 +6,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Reset_Passwrord_Activity"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".Reset_Passwrord_Activity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Reset password"
+        android:text="Reset Password"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#222222"/>
@@ -31,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email Address"
-        android:layout_marginRight="127dp"
         android:layout_marginTop="40dp"
         android:textSize="14sp"
         android:textColor="#222222"/>
@@ -51,35 +49,44 @@
         android:inputType="textEmailAddress"/>
 
     <Button
+        android:id="@+id/continueBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Load-in"
-        android:layout_marginTop="60dp"
-        android:backgroundTint="#2196F3"
+        android:text="Continue"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#124BCD"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingVertical="10dp">
+        android:layout_weight="1">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Remember Password?"
-            android:textSize="16sp"
-            android:textColor="#222222"/>
+            android:layout_marginTop="460dp"
+            android:gravity="center"
+            android:paddingVertical="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Login"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="#124BCD"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember Password?"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:textColor="#124BCD"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 
 
