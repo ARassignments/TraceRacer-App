@@ -91,13 +91,6 @@
         android:textStyle="bold"
         android:padding="16dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I have an Account? Login"
-        android:layout_marginTop="20dp"
-        android:textSize="18sp"
-        android:layout_gravity="center"
-        android:textColor="#124BCD"/>
+
 
 </LinearLayout>
