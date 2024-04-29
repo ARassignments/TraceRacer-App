@@ -1,6 +1,9 @@
 package com.example.traceracer;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +18,13 @@ public class confirm_PassordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_confirm_passord);
-
+        Button sbtbtn = findViewById(R.id.sbtbtn);
+        sbtbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(confirm_PassordActivity.this,password_SuccessActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
