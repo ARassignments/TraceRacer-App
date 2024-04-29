@@ -9,8 +9,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    tools:context=".LoginActivity"
-    android:background="@android:drawable/presence_audio_away">
+    tools:context=".LoginActivity">
 
 
 
@@ -88,21 +87,33 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Load-in"
+        android:text="Login"
         android:layout_marginTop="60dp"
         android:backgroundTint="#1E958A"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="I have an Account? Login"
-        android:layout_marginTop="20dp"
-        android:textSize="18sp"
-        android:layout_gravity="center"
-        android:textColor="#E91E63"/>
+        android:gravity="center"
+        android:paddingVertical="10dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Passwor?"
+            android:textSize="16sp"
+            android:textColor="#222222"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#124BCD"/>
+    </LinearLayout>
 
 </LinearLayout>
