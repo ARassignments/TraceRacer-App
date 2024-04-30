@@ -27,6 +27,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        TextView rstsgn = findViewById(R.id.rstsign);
+        rstsgn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this,Sing_up_Activity2.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

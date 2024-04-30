@@ -84,15 +84,30 @@
         android:layout_marginTop="8dp"
         android:inputType="textPassword"/>
 
-    <Button
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginTop="60dp"
-        android:backgroundTint="#1E958A"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:padding="16dp"/>
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Does't have an account ?"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rstsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sign-up"
+            android:textColor="#124BCD"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 
 
