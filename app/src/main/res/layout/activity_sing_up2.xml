@@ -127,22 +127,23 @@
         android:id="@+id/forgotBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
         android:text="By continuing you agree to our Terms of Service
 and Privacy Policy."
-        android:layout_marginTop="15dp"
-        android:textSize="14sp"
-        android:layout_gravity="center"
-        android:textColor="#181725"/>
+        android:textColor="#181725"
+        android:textSize="14sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign-Up"
         android:layout_marginTop="60dp"
         android:backgroundTint="#E02027"
+        android:padding="16dp"
+        android:text="Sign-Up"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:padding="16dp"/>
+        android:layout_marginVertical="13dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
