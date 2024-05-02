@@ -9,6 +9,11 @@
     tools:context=".confirm_PassordActivity"
     android:orientation="vertical"
     android:padding="40dp">
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="135dp"
+        android:src="@drawable/th"
+        android:layout_gravity="center"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,7 +79,7 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:layout_marginTop="60dp"
-        android:backgroundTint="#01579B"
+        android:backgroundTint="#1A8C91"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>

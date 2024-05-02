@@ -17,7 +17,15 @@ public class Splash_ScreenActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash_screen2);
-        Handler handler= new Handler();
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(Splash_ScreenActivity2.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 4370); // For Event Start After Delay
         
 
     }

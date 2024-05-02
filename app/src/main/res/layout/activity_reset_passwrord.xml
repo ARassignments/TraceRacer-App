@@ -9,6 +9,11 @@
     android:orientation="vertical"
     android:padding="30dp"
     tools:context=".Reset_Passwrord_Activity">
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="135dp"
+        android:src="@drawable/th"
+        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Continue"
         android:layout_marginTop="120dp"
-        android:backgroundTint="#124BCD"
+        android:backgroundTint="#1D898E"
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="16dp"/>
