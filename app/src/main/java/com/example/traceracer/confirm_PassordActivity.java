@@ -24,6 +24,7 @@ public class confirm_PassordActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(confirm_PassordActivity.this,password_SuccessActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

@@ -25,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this,Reset_Passwrord_Activity.class);
                 startActivity(intent);
+                finish();
             }
         });
         TextView rstsgn = findViewById(R.id.rstsign);
@@ -33,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this,Sing_up_Activity2.class);
                 startActivity(intent);
+
             }
         });
 

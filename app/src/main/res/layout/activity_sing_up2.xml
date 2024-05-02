@@ -23,7 +23,7 @@
         android:paddingTop="15dp"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#222222"/>
+        android:textColor="#E02027"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email Address"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:textSize="14sp"
         android:textColor="#222222"/>
 
@@ -149,6 +149,7 @@ and Privacy Policy."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:paddingVertical="7dp">
 
         <TextView
@@ -166,7 +167,8 @@ and Privacy Policy."
             android:text="Signin "
             android:layout_marginTop="8dp"
             android:textSize="14sp"
-            android:textColor="#53B175"/>
+            android:textColor="#E02027"
+            android:padding="6dp"/>
 
     </LinearLayout>
 

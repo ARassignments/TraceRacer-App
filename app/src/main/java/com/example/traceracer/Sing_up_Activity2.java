@@ -22,8 +22,7 @@ public class Sing_up_Activity2 extends AppCompatActivity {
         lgnbt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Sing_up_Activity2.this,LoginActivity.class);
-                startActivity(intent);
+                Sing_up_Activity2.super.onBackPressed();
             }
         });
 
