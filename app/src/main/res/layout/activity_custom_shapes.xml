@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Learning.CustomShapesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solid Bg"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_solid_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gradient Bg"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_gradient_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outline"
+            android:textSize="40sp"
+            android:textColor="#f50"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_outline"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outline Dashed"
+            android:textSize="40sp"
+            android:textColor="#f50"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_outline_dashed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outline Dashed"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_radius_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outline Dashed"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_radius_top_left_bg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Shape"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_custom"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Shape"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:background="@drawable/shape_custom"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
