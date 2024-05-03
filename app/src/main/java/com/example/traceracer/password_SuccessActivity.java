@@ -2,6 +2,7 @@ package com.example.traceracer;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,5 +29,16 @@ public class password_SuccessActivity extends AppCompatActivity {
                 finish();
             }
         });
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(password_SuccessActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 4370); // For Event Start After Delay
     }
-}
+
+
+    }

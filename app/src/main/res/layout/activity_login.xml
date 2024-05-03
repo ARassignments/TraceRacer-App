@@ -57,16 +57,6 @@
         android:inputType="textEmailAddress"/>
 
     <TextView
-        android:id="@+id/forgotpwd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot Password?"
-        android:layout_marginTop="15dp"
-        android:textSize="14sp"
-        android:layout_gravity="right"
-        android:textColor="#1D59E1"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
@@ -88,6 +78,15 @@
         android:drawableTint="#A9A9A9"
         android:layout_marginTop="8dp"
         android:inputType="textPassword"/>
+    <TextView
+        android:id="@+id/forgotpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:layout_gravity="right"
+        android:textColor="#18959A"/>
     <Button
         android:id="@+id/lgnBtn"
         android:layout_width="match_parent"
@@ -119,7 +118,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Sign-up"
-            android:textColor="#124BCD"
+            android:textColor="#14959A"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>

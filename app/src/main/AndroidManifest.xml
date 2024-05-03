@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TraceRacer"
         tools:targetApi="31">
         <activity
+            android:name=".learning.custom_Shape_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Splash_ScreenActivity2"
             android:exported="false" />
         <activity
