@@ -29,16 +29,8 @@ public class password_SuccessActivity extends AppCompatActivity {
                 finish();
             }
         });
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(password_SuccessActivity.this, LoginActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        }, 4370); // For Event Start After Delay
     }
+
 
 
     }

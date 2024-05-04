@@ -18,13 +18,7 @@ public class Sing_up_Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_sing_up2);
-        TextView lgnbt = findViewById(R.id.aa);
-        lgnbt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Sing_up_Activity2.super.onBackPressed();
-            }
-        });
+
 
     }
 }
