@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.layout_nine);
-        Intent intent = new Intent(MainActivity.this, SplashScleenActivity.class);
+        Intent intent = new Intent(MainActivity.this, SplashScreenActivity.class);
         startActivity(intent);
         finish();
     }
